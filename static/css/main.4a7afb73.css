@@ -1,4 +1,22 @@
-﻿@font-face {
+/* Добавьте эти правила в начало файла main.4a7afb73.css или в соответствующий раздел */
+@font-face {
+  font-family: 'Rocketfont Cyrillic';
+  src: url('/font/Rocketfont-cyrillic.002ad0b78.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Рекомендуется добавить unicode-range для оптимизации загрузки, если этот шрифт содержит только кириллицу */
+  /* unicode-range: U+0400-04FF, U+0500-052F, U+2DE0-2DFF, U+A640-A69F, U+1C80-1C8F, U+20BD; (включая символ рубля) */
+}
+
+@font-face {
+  font-family: 'Rocketfont Cyrillic Ext';
+  src: url('/font/Rocketfont-cyrillic-ext.229598f72.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-display: swap;
   font-family: Halvar Breit Blk;
   font-style: normal;
