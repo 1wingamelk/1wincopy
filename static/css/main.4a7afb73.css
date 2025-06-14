@@ -123,6 +123,10 @@
   src: local('SF Pro Display'),
     url(../media/SFPRODISPLAYBOLD.7f4a27565643e9e936a3.woff) format('woff');
 }
+
+.status-bar__status-text-currency {
+  font-family: 'Rocketfont Cyrillic', 'SF Pro Display', -apple-system, BlinkMacMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
 /*
 ! tailwindcss v3.2.2 | MIT License | https://tailwindcss.com
 */
